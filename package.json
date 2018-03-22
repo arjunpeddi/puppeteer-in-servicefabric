@@ -1,0 +1,22 @@
+{
+    "name": "psbot-headless-api",
+    "description": "PS bot headless api",
+    "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "author": "Microsoft",
+    "engines": {
+        "node": ">=6.9.1"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "cookie-parser": "^1.4.3",
+        "express": "^4.16.3",
+        "express-async-handler": "^1.1.1",
+        "path": "^0.12.7",
+        "puppeteer": "^1.2.0"
+    }
+}
